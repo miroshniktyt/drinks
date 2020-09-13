@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0820272250E1275007067A3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0820271250E1275007067A3 /* Category.swift */; };
+		D0820274250E12B3007067A3 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0820273250E12B3007067A3 /* Filter.swift */; };
+		D0977FE5250AAD140014EDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FE4250AAD140014EDA2 /* AppDelegate.swift */; };
+		D0977FE9250AAD140014EDA2 /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FE8250AAD140014EDA2 /* DrinksViewController.swift */; };
+		D0977FEE250AAD1F0014EDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0977FED250AAD1F0014EDA2 /* Assets.xcassets */; };
+		D0977FF1250AAD1F0014EDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */; };
+		D0977FF9250AC9830014EDA2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FF8250AC9830014EDA2 /* Service.swift */; };
+		D0977FFB250AD2B20014EDA2 /* CategoriesPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FFA250AD2B20014EDA2 /* CategoriesPickerController.swift */; };
+		D0977FFD250AD6110014EDA2 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FFC250AD6110014EDA2 /* UIView+.swift */; };
+		D0977FFF250ADD750014EDA2 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FFE250ADD750014EDA2 /* CategoryCell.swift */; };
+		D0978003250B79E20014EDA2 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978002250B79E20014EDA2 /* ServiceError.swift */; };
+		D0978005250B7A000014EDA2 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978004250B7A000014EDA2 /* Drink.swift */; };
+		D0F26B4F250E164B00441F16 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B4E250E164B00441F16 /* Consts.swift */; };
+		D0F26B51250E774F00441F16 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B50250E774F00441F16 /* UIFont+.swift */; };
+		D0F26B55250E831500441F16 /* InAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B54250E831500441F16 /* InAppButton.swift */; };
+		D0F26B57250E83C500441F16 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B56250E83C500441F16 /* CategoryHeaderView.swift */; };
+		D0F26B5B250E858700441F16 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26B58250E858700441F16 /* Roboto-Regular.ttf */; };
+		D0F26B5C250E858700441F16 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26B59250E858700441F16 /* Roboto-Medium.ttf */; };
+		D0F26B5D250E858700441F16 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26B5A250E858700441F16 /* Roboto-Bold.ttf */; };
+		D0F26B60250E9B2200441F16 /* DrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B5F250E9B2200441F16 /* DrinkCell.swift */; };
+		E676FD18904D5E4DEFF3AF5E /* Pods_coctails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEC7330C434D2723BC49A96 /* Pods_coctails.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CEC7330C434D2723BC49A96 /* Pods_coctails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coctails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C988921245473CA677D220B /* Pods-coctails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coctails.release.xcconfig"; path = "Target Support Files/Pods-coctails/Pods-coctails.release.xcconfig"; sourceTree = "<group>"; };
+		D0820271250E1275007067A3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D0820273250E12B3007067A3 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		D0977FE1250AAD140014EDA2 /* drinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0977FE4250AAD140014EDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0977FE8250AAD140014EDA2 /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		D0977FED250AAD1F0014EDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0977FF0250AAD1F0014EDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0977FF2250AAD1F0014EDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0977FF8250AC9830014EDA2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D0977FFA250AD2B20014EDA2 /* CategoriesPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPickerController.swift; sourceTree = "<group>"; };
+		D0977FFC250AD6110014EDA2 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		D0977FFE250ADD750014EDA2 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D0978002250B79E20014EDA2 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		D0978004250B7A000014EDA2 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		D0F26B4E250E164B00441F16 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		D0F26B50250E774F00441F16 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		D0F26B54250E831500441F16 /* InAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppButton.swift; sourceTree = "<group>"; };
+		D0F26B56250E83C500441F16 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
+		D0F26B58250E858700441F16 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D0F26B59250E858700441F16 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D0F26B5A250E858700441F16 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D0F26B5F250E9B2200441F16 /* DrinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCell.swift; sourceTree = "<group>"; };
+		E76F37BA72EF2DF76A38820B /* Pods-coctails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coctails.debug.xcconfig"; path = "Target Support Files/Pods-coctails/Pods-coctails.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0977FDE250AAD140014EDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E676FD18904D5E4DEFF3AF5E /* Pods_coctails.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EA809C705F1AC33E77F3860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E76F37BA72EF2DF76A38820B /* Pods-coctails.debug.xcconfig */,
+				8C988921245473CA677D220B /* Pods-coctails.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4E5A4EFA00FFF8212ECD6BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC7330C434D2723BC49A96 /* Pods_coctails.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0820275250E12BF007067A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0978004250B7A000014EDA2 /* Drink.swift */,
+				D0820271250E1275007067A3 /* Category.swift */,
+				D0820273250E12B3007067A3 /* Filter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0820276250E12D9007067A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FE8250AAD140014EDA2 /* DrinksViewController.swift */,
+				D0977FFA250AD2B20014EDA2 /* CategoriesPickerController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D0820277250E12EE007067A3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FF8250AC9830014EDA2 /* Service.swift */,
+				D0978002250B79E20014EDA2 /* ServiceError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D082027A250E132D007067A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26B5E250E859500441F16 /* Fonts */,
+				D0977FED250AAD1F0014EDA2 /* Assets.xcassets */,
+				D0977FFC250AD6110014EDA2 /* UIView+.swift */,
+				D0F26B50250E774F00441F16 /* UIFont+.swift */,
+				D0F26B4E250E164B00441F16 /* Consts.swift */,
+				D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D082027B250E133C007067A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FFE250ADD750014EDA2 /* CategoryCell.swift */,
+				D0F26B56250E83C500441F16 /* CategoryHeaderView.swift */,
+				D0F26B5F250E9B2200441F16 /* DrinkCell.swift */,
+				D0F26B54250E831500441F16 /* InAppButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0977FD8250AAD140014EDA2 = {
+			isa = PBXGroup;
+			children = (
+				D0977FE3250AAD140014EDA2 /* drinks */,
+				D0977FE2250AAD140014EDA2 /* Products */,
+				9EA809C705F1AC33E77F3860 /* Pods */,
+				B4E5A4EFA00FFF8212ECD6BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0977FE2250AAD140014EDA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FE1250AAD140014EDA2 /* drinks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0977FE3250AAD140014EDA2 /* drinks */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FE4250AAD140014EDA2 /* AppDelegate.swift */,
+				D0820275250E12BF007067A3 /* Models */,
+				D0820276250E12D9007067A3 /* Controllers */,
+				D0820277250E12EE007067A3 /* Networking */,
+				D082027A250E132D007067A3 /* Helpers */,
+				D082027B250E133C007067A3 /* Views */,
+				D0977FF2250AAD1F0014EDA2 /* Info.plist */,
+			);
+			path = drinks;
+			sourceTree = "<group>";
+		};
+		D0F26B5E250E859500441F16 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26B5A250E858700441F16 /* Roboto-Bold.ttf */,
+				D0F26B59250E858700441F16 /* Roboto-Medium.ttf */,
+				D0F26B58250E858700441F16 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0977FE0250AAD140014EDA2 /* coctails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0977FF5250AAD1F0014EDA2 /* Build configuration list for PBXNativeTarget "coctails" */;
+			buildPhases = (
+				1D118B2F6E443CBE5904BE05 /* [CP] Check Pods Manifest.lock */,
+				D0977FDD250AAD140014EDA2 /* Sources */,
+				D0977FDE250AAD140014EDA2 /* Frameworks */,
+				D0977FDF250AAD140014EDA2 /* Resources */,
+				B807AECF98DA7C2175FF486F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coctails;
+			productName = coctails;
+			productReference = D0977FE1250AAD140014EDA2 /* drinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0977FD9250AAD140014EDA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					D0977FE0250AAD140014EDA2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D0977FDC250AAD140014EDA2 /* Build configuration list for PBXProject "drinks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0977FD8250AAD140014EDA2;
+			productRefGroup = D0977FE2250AAD140014EDA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0977FE0250AAD140014EDA2 /* coctails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0977FDF250AAD140014EDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26B5C250E858700441F16 /* Roboto-Medium.ttf in Resources */,
+				D0F26B5B250E858700441F16 /* Roboto-Regular.ttf in Resources */,
+				D0F26B5D250E858700441F16 /* Roboto-Bold.ttf in Resources */,
+				D0977FF1250AAD1F0014EDA2 /* LaunchScreen.storyboard in Resources */,
+				D0977FEE250AAD1F0014EDA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D118B2F6E443CBE5904BE05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coctails-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B807AECF98DA7C2175FF486F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coctails/Pods-coctails-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coctails/Pods-coctails-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coctails/Pods-coctails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0977FDD250AAD140014EDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F26B51250E774F00441F16 /* UIFont+.swift in Sources */,
+				D0F26B57250E83C500441F16 /* CategoryHeaderView.swift in Sources */,
+				D0F26B60250E9B2200441F16 /* DrinkCell.swift in Sources */,
+				D0978003250B79E20014EDA2 /* ServiceError.swift in Sources */,
+				D0F26B4F250E164B00441F16 /* Consts.swift in Sources */,
+				D0820272250E1275007067A3 /* Category.swift in Sources */,
+				D0F26B55250E831500441F16 /* InAppButton.swift in Sources */,
+				D0820274250E12B3007067A3 /* Filter.swift in Sources */,
+				D0977FE9250AAD140014EDA2 /* DrinksViewController.swift in Sources */,
+				D0978005250B7A000014EDA2 /* Drink.swift in Sources */,
+				D0977FE5250AAD140014EDA2 /* AppDelegate.swift in Sources */,
+				D0977FFB250AD2B20014EDA2 /* CategoriesPickerController.swift in Sources */,
+				D0977FF9250AC9830014EDA2 /* Service.swift in Sources */,
+				D0977FFD250AD6110014EDA2 /* UIView+.swift in Sources */,
+				D0977FFF250ADD750014EDA2 /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0977FF0250AAD1F0014EDA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0977FF3250AAD1F0014EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0977FF4250AAD1F0014EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0977FF6250AAD1F0014EDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76F37BA72EF2DF76A38820B /* Pods-coctails.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GK9C4MBD;
+				INFOPLIST_FILE = drinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = something.coctails;
+				PRODUCT_NAME = drinks;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0977FF7250AAD1F0014EDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C988921245473CA677D220B /* Pods-coctails.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GK9C4MBD;
+				INFOPLIST_FILE = drinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = something.coctails;
+				PRODUCT_NAME = drinks;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0977FDC250AAD140014EDA2 /* Build configuration list for PBXProject "drinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0977FF3250AAD1F0014EDA2 /* Debug */,
+				D0977FF4250AAD1F0014EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0977FF5250AAD1F0014EDA2 /* Build configuration list for PBXNativeTarget "coctails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0977FF6250AAD1F0014EDA2 /* Debug */,
+				D0977FF7250AAD1F0014EDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0977FD9250AAD140014EDA2 /* Project object */;
+}
