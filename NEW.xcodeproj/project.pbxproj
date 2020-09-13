@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0820272250E1275007067A3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0820271250E1275007067A3 /* Category.swift */; };
+		D0820274250E12B3007067A3 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0820273250E12B3007067A3 /* Filter.swift */; };
 		D0977FE5250AAD140014EDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FE4250AAD140014EDA2 /* AppDelegate.swift */; };
-		D0977FE7250AAD140014EDA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FE6250AAD140014EDA2 /* SceneDelegate.swift */; };
-		D0977FE9250AAD140014EDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FE8250AAD140014EDA2 /* ViewController.swift */; };
-		D0977FEC250AAD140014EDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0977FEA250AAD140014EDA2 /* Main.storyboard */; };
+		D0977FE9250AAD140014EDA2 /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FE8250AAD140014EDA2 /* DrinksViewController.swift */; };
 		D0977FEE250AAD1F0014EDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0977FED250AAD1F0014EDA2 /* Assets.xcassets */; };
 		D0977FF1250AAD1F0014EDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */; };
+		D0977FF9250AC9830014EDA2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FF8250AC9830014EDA2 /* Service.swift */; };
+		D0977FFB250AD2B20014EDA2 /* CategoriesPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FFA250AD2B20014EDA2 /* CategoriesPickerController.swift */; };
+		D0977FFD250AD6110014EDA2 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FFC250AD6110014EDA2 /* UIView+.swift */; };
+		D0977FFF250ADD750014EDA2 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0977FFE250ADD750014EDA2 /* CategoryCell.swift */; };
+		D0978001250AF4BA0014EDA2 /* CocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978000250AF4BA0014EDA2 /* CocktailCell.swift */; };
+		D0978003250B79E20014EDA2 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978002250B79E20014EDA2 /* ServiceError.swift */; };
+		D0978005250B7A000014EDA2 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978004250B7A000014EDA2 /* Drink.swift */; };
+		D0F26B4F250E164B00441F16 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B4E250E164B00441F16 /* Consts.swift */; };
+		D0F26B51250E774F00441F16 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B50250E774F00441F16 /* UIFont+.swift */; };
+		D0F26B55250E831500441F16 /* InAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B54250E831500441F16 /* InAppButton.swift */; };
+		D0F26B57250E83C500441F16 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F26B56250E83C500441F16 /* CategoryHeaderView.swift */; };
+		D0F26B5B250E858700441F16 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26B58250E858700441F16 /* Roboto-Regular.ttf */; };
+		D0F26B5C250E858700441F16 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26B59250E858700441F16 /* Roboto-Medium.ttf */; };
+		D0F26B5D250E858700441F16 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F26B5A250E858700441F16 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0820271250E1275007067A3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D0820273250E12B3007067A3 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		D0977FE1250AAD140014EDA2 /* coctails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coctails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0977FE4250AAD140014EDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0977FE6250AAD140014EDA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0977FE8250AAD140014EDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0977FEB250AAD140014EDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0977FE8250AAD140014EDA2 /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
 		D0977FED250AAD1F0014EDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0977FF0250AAD1F0014EDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0977FF2250AAD1F0014EDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0977FF8250AC9830014EDA2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D0977FFA250AD2B20014EDA2 /* CategoriesPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPickerController.swift; sourceTree = "<group>"; };
+		D0977FFC250AD6110014EDA2 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		D0977FFE250ADD750014EDA2 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D0978000250AF4BA0014EDA2 /* CocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCell.swift; sourceTree = "<group>"; };
+		D0978002250B79E20014EDA2 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		D0978004250B7A000014EDA2 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		D0F26B4E250E164B00441F16 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		D0F26B50250E774F00441F16 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		D0F26B54250E831500441F16 /* InAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppButton.swift; sourceTree = "<group>"; };
+		D0F26B56250E83C500441F16 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
+		D0F26B58250E858700441F16 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D0F26B59250E858700441F16 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D0F26B5A250E858700441F16 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0820275250E12BF007067A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0978004250B7A000014EDA2 /* Drink.swift */,
+				D0820271250E1275007067A3 /* Category.swift */,
+				D0820273250E12B3007067A3 /* Filter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0820276250E12D9007067A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FE8250AAD140014EDA2 /* DrinksViewController.swift */,
+				D0977FFA250AD2B20014EDA2 /* CategoriesPickerController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D0820277250E12EE007067A3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FF8250AC9830014EDA2 /* Service.swift */,
+				D0978002250B79E20014EDA2 /* ServiceError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D082027A250E132D007067A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26B5E250E859500441F16 /* Fonts */,
+				D0977FED250AAD1F0014EDA2 /* Assets.xcassets */,
+				D0977FFC250AD6110014EDA2 /* UIView+.swift */,
+				D0F26B50250E774F00441F16 /* UIFont+.swift */,
+				D0F26B4E250E164B00441F16 /* Consts.swift */,
+				D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D082027B250E133C007067A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0977FFE250ADD750014EDA2 /* CategoryCell.swift */,
+				D0978000250AF4BA0014EDA2 /* CocktailCell.swift */,
+				D0F26B56250E83C500441F16 /* CategoryHeaderView.swift */,
+				D0F26B54250E831500441F16 /* InAppButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D0977FD8250AAD140014EDA2 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +137,24 @@
 			isa = PBXGroup;
 			children = (
 				D0977FE4250AAD140014EDA2 /* AppDelegate.swift */,
-				D0977FE6250AAD140014EDA2 /* SceneDelegate.swift */,
-				D0977FE8250AAD140014EDA2 /* ViewController.swift */,
-				D0977FEA250AAD140014EDA2 /* Main.storyboard */,
-				D0977FED250AAD1F0014EDA2 /* Assets.xcassets */,
-				D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */,
+				D0820275250E12BF007067A3 /* Models */,
+				D0820276250E12D9007067A3 /* Controllers */,
+				D0820277250E12EE007067A3 /* Networking */,
+				D082027A250E132D007067A3 /* Helpers */,
+				D082027B250E133C007067A3 /* Views */,
 				D0977FF2250AAD1F0014EDA2 /* Info.plist */,
 			);
 			path = coctails;
+			sourceTree = "<group>";
+		};
+		D0F26B5E250E859500441F16 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0F26B5A250E858700441F16 /* Roboto-Bold.ttf */,
+				D0F26B59250E858700441F16 /* Roboto-Medium.ttf */,
+				D0F26B58250E858700441F16 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D0977FDC250AAD140014EDA2 /* Build configuration list for PBXProject "coctails" */;
+			buildConfigurationList = D0977FDC250AAD140014EDA2 /* Build configuration list for PBXProject "NEW" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,9 +215,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F26B5C250E858700441F16 /* Roboto-Medium.ttf in Resources */,
+				D0F26B5B250E858700441F16 /* Roboto-Regular.ttf in Resources */,
+				D0F26B5D250E858700441F16 /* Roboto-Bold.ttf in Resources */,
 				D0977FF1250AAD1F0014EDA2 /* LaunchScreen.storyboard in Resources */,
 				D0977FEE250AAD1F0014EDA2 /* Assets.xcassets in Resources */,
-				D0977FEC250AAD140014EDA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +230,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0977FE9250AAD140014EDA2 /* ViewController.swift in Sources */,
+				D0F26B51250E774F00441F16 /* UIFont+.swift in Sources */,
+				D0F26B57250E83C500441F16 /* CategoryHeaderView.swift in Sources */,
+				D0978003250B79E20014EDA2 /* ServiceError.swift in Sources */,
+				D0F26B4F250E164B00441F16 /* Consts.swift in Sources */,
+				D0820272250E1275007067A3 /* Category.swift in Sources */,
+				D0F26B55250E831500441F16 /* InAppButton.swift in Sources */,
+				D0820274250E12B3007067A3 /* Filter.swift in Sources */,
+				D0977FE9250AAD140014EDA2 /* DrinksViewController.swift in Sources */,
+				D0978005250B7A000014EDA2 /* Drink.swift in Sources */,
+				D0978001250AF4BA0014EDA2 /* CocktailCell.swift in Sources */,
 				D0977FE5250AAD140014EDA2 /* AppDelegate.swift in Sources */,
-				D0977FE7250AAD140014EDA2 /* SceneDelegate.swift in Sources */,
+				D0977FFB250AD2B20014EDA2 /* CategoriesPickerController.swift in Sources */,
+				D0977FF9250AC9830014EDA2 /* Service.swift in Sources */,
+				D0977FFD250AD6110014EDA2 /* UIView+.swift in Sources */,
+				D0977FFF250ADD750014EDA2 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0977FEA250AAD140014EDA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0977FEB250AAD140014EDA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0977FEF250AAD1F0014EDA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0977FDC250AAD140014EDA2 /* Build configuration list for PBXProject "coctails" */ = {
+		D0977FDC250AAD140014EDA2 /* Build configuration list for PBXProject "NEW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0977FF3250AAD1F0014EDA2 /* Debug */,
